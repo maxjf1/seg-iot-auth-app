@@ -1,4 +1,4 @@
-const api = 'http://localhost:3001/app'//'https://iot-auth-api.herokuapp.com/app'
+const api = 'https://iot-auth-api.herokuapp.com/app'
 
 function http(route = '/', { method = 'GET', body, ...args } = {}) {
     if (body) body = JSON.stringify(body)
