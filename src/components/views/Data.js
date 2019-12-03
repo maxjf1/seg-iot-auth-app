@@ -1,23 +1,11 @@
 import React, { Fragment, PureComponent } from 'react';
 import Header from '../Header';
-import { Typography, Container, CircularProgress } from '@material-ui/core';
-import { getDevices, getData } from '../../api';
-import DevicesList from '../DevicesList';
-import { position } from 'dom-helpers';
+import { Typography, Container } from '@material-ui/core';
+import { getData } from '../../api';
 import DataList from '../DataList';
 
-const styles = {
-    loader: {
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        margin: 'auto'
-    }
-}
 
-const DELAY = 5000
+const DELAY = 500
 
 class Data extends PureComponent {
 

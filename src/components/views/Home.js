@@ -1,7 +1,6 @@
 import React, { Fragment, PureComponent } from 'react';
 import Header from '../Header';
-import { Typography, Button, Container } from '@material-ui/core';
-import { Link } from 'react-router-dom'
+import { Typography, Container } from '@material-ui/core';
 import { getNewDevices } from '../../api';
 import DevicesList from '../DevicesList';
 import { EmojiEmotions as HappyIcon } from '@material-ui/icons';

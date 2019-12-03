@@ -3,7 +3,6 @@ import Header from '../Header';
 import { Typography, Container, CircularProgress, IconButton } from '@material-ui/core';
 import { getDevices } from '../../api';
 import DevicesList from '../DevicesList';
-import { position } from 'dom-helpers';
 import { Refresh as RefreshIcon } from '@material-ui/icons';
 
 const styles = {
