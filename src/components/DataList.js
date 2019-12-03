@@ -1,5 +1,7 @@
-import React from 'react'
-import { List, ListItem, ListItemText, ListItemAvatar, Avatar } from '@material-ui/core'
+import React, { useState } from 'react'
+import { List, ListItem, ListItemText, ListItemAvatar, Avatar, ListItemSecondaryAction, IconButton } from '@material-ui/core'
+import { Delete as DeleteIcon } from '@material-ui/icons'
+import { deleteData } from '../api'
 
 
 const styles = {
@@ -20,6 +22,12 @@ export default function DataList({ onUpdate, data = [] }) {
 
 
 function DataListItem({ data: { deviceId, createdAt, value } }) {
+    const [loading, setLoading] = useState(false)
+
+    function deleteItem(){
+        setLoading(true)
+        deleteData(createdAt)
+    }
     const date = new Date(createdAt)
     return (
         <ListItem style={styles.item}>
@@ -27,6 +35,11 @@ function DataListItem({ data: { deviceId, createdAt, value } }) {
                 <Avatar>{deviceId}</Avatar>
             </ListItemAvatar>
             <ListItemText primary={`Valor: ${value}`} secondary={date.toLocaleString()} />
+            <ListItemSecondaryAction>
+                <IconButton edge="end" aria-label="delete" onClick={deleteItem} disabled={loading}>
+                    <DeleteIcon />
+                </IconButton>
+            </ListItemSecondaryAction>
         </ListItem>
     )
 }

@@ -1,9 +1,10 @@
 import React, { Fragment, PureComponent } from 'react';
 import Header from '../Header';
-import { Typography, Container, CircularProgress } from '@material-ui/core';
+import { Typography, Container, CircularProgress, IconButton } from '@material-ui/core';
 import { getDevices } from '../../api';
 import DevicesList from '../DevicesList';
 import { position } from 'dom-helpers';
+import { Refresh as RefreshIcon } from '@material-ui/icons';
 
 const styles = {
     loader: {
@@ -37,9 +38,15 @@ class Devices extends PureComponent {
         const { devices, loading } = this.state
         return (
             <Fragment>
-                <Header title="Todos Dispositivos" />
+                <Header title="Todos Dispositivos" 
+                    rightAction={
+                        <IconButton color="inherit" onClick={this.getDevices} disabled={loading}>
+                            <RefreshIcon />
+                        </IconButton>
+                    }
+                />
                 <main>
-                    <Container>
+                    <Container maxWidth="sm">
                         {loading ?
                             <CircularProgress size={80} style={styles.loader} /> :
                             <>
