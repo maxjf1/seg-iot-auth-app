@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "395f57b5fe727487a212862cdb880b45",
+    "revision": "b28ed6d718670666a026c05c4b6186dd",
     "url": "/seg-iot-auth-app/index.html"
   },
   {
-    "revision": "d98b40d1c95ec9661e9f",
+    "revision": "f5ab61864ec4089df21e",
     "url": "/seg-iot-auth-app/static/css/2.3e6203a6.chunk.css"
   },
   {
-    "revision": "2cb32a33a835a1791038",
+    "revision": "61b815a0a28d684c2d48",
     "url": "/seg-iot-auth-app/static/css/main.1e5751c2.chunk.css"
   },
   {
-    "revision": "d98b40d1c95ec9661e9f",
-    "url": "/seg-iot-auth-app/static/js/2.7c03b032.chunk.js"
+    "revision": "f5ab61864ec4089df21e",
+    "url": "/seg-iot-auth-app/static/js/2.c9e071b4.chunk.js"
   },
   {
-    "revision": "2cb32a33a835a1791038",
-    "url": "/seg-iot-auth-app/static/js/main.4dcce8f1.chunk.js"
+    "revision": "61b815a0a28d684c2d48",
+    "url": "/seg-iot-auth-app/static/js/main.6e94aed2.chunk.js"
   },
   {
     "revision": "0bc810d494a38053d661",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/seg-iot-auth-app/static/css/main.1e5751c2.chunk.css",
-    "main.js": "/seg-iot-auth-app/static/js/main.4dcce8f1.chunk.js",
-    "main.js.map": "/seg-iot-auth-app/static/js/main.4dcce8f1.chunk.js.map",
+    "main.js": "/seg-iot-auth-app/static/js/main.6e94aed2.chunk.js",
+    "main.js.map": "/seg-iot-auth-app/static/js/main.6e94aed2.chunk.js.map",
     "runtime-main.js": "/seg-iot-auth-app/static/js/runtime-main.8be781b1.js",
     "runtime-main.js.map": "/seg-iot-auth-app/static/js/runtime-main.8be781b1.js.map",
     "static/css/2.3e6203a6.chunk.css": "/seg-iot-auth-app/static/css/2.3e6203a6.chunk.css",
-    "static/js/2.7c03b032.chunk.js": "/seg-iot-auth-app/static/js/2.7c03b032.chunk.js",
-    "static/js/2.7c03b032.chunk.js.map": "/seg-iot-auth-app/static/js/2.7c03b032.chunk.js.map",
+    "static/js/2.c9e071b4.chunk.js": "/seg-iot-auth-app/static/js/2.c9e071b4.chunk.js",
+    "static/js/2.c9e071b4.chunk.js.map": "/seg-iot-auth-app/static/js/2.c9e071b4.chunk.js.map",
     "index.html": "/seg-iot-auth-app/index.html",
-    "precache-manifest.04556aca90a2cab7a88ddb22b421bc22.js": "/seg-iot-auth-app/precache-manifest.04556aca90a2cab7a88ddb22b421bc22.js",
+    "precache-manifest.21b03c5cc9c508bf7fa9a00da2891a1f.js": "/seg-iot-auth-app/precache-manifest.21b03c5cc9c508bf7fa9a00da2891a1f.js",
     "service-worker.js": "/seg-iot-auth-app/service-worker.js",
     "static/css/2.3e6203a6.chunk.css.map": "/seg-iot-auth-app/static/css/2.3e6203a6.chunk.css.map",
     "static/css/main.1e5751c2.chunk.css.map": "/seg-iot-auth-app/static/css/main.1e5751c2.chunk.css.map",
@@ -18,8 +18,8 @@
   "entrypoints": [
     "static/js/runtime-main.8be781b1.js",
     "static/css/2.3e6203a6.chunk.css",
-    "static/js/2.7c03b032.chunk.js",
+    "static/js/2.c9e071b4.chunk.js",
     "static/css/main.1e5751c2.chunk.css",
-    "static/js/main.4dcce8f1.chunk.js"
+    "static/js/main.6e94aed2.chunk.js"
   ]
 }
